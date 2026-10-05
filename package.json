@@ -1,0 +1,19 @@
+{
+    "name": "skyro-image-to-ascii",
+    "private": true,
+    "version": "1.0.0",
+    "description": "Starter zadanie: PNG obrazok do ASCII artu v terminali",
+    "scripts": {
+        "start": "tsx starter/index.ts",
+        "typecheck": "tsc --noEmit",
+        "generate:assets": "node scripts/generate-assets.mjs"
+    },
+    "dependencies": {
+        "sharp": "^0.34.4"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.0",
+        "tsx": "^4.20.0",
+        "typescript": "^5.8.0"
+    }
+}
